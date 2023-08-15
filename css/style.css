@@ -1,0 +1,38 @@
+*,
+*::after,
+*::before{
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+li {
+  list-style: none;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/*------header----------*/
+.header {
+}
+.container {
+  margin: 0 auto;
+  max-width: 1220px;
+  padding: 0 10px;
+}
+.header__inner {
+}
+.logo {
+}
+.menu {
+}
+.menu__list {
+}
+.menu__item {
+}
+.menu__link {
+}
