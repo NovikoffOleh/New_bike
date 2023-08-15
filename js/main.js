@@ -1,3 +1,3 @@
 $(function(){
-  
+  $('.bike-slider').slick();
 })
