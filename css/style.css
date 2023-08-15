@@ -54,4 +54,39 @@ ul{
   background-color: #131313;
   color: #ffff;
 }
-/*----------main-------------*/
+/*----------bike-------------*/
+.bike {
+  padding: 100px 0 150px;
+}
+
+.bike__inner {
+  display: flex;
+  justify-content: space-between;
+}
+.bike__column {
+}
+.bike__column-slider{
+  flex-basis: 630px;
+  margin-left: 30px;
+}
+.bike__title {
+  margin: 0 0 5px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  color: #131313;
+}
+.bike__subtitle {
+}
+.bike__text {
+}
+.bike__link {
+}
+.bike-slider {
+}
+.bike-slider__item {
+}
+.bike__list {
+}
+.bike__list-item {
+}
