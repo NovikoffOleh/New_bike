@@ -159,9 +159,28 @@ ul{
   background-color: #ff4040;
 }
 /*--------------------------*/
-
-
-/*-----Footer--------*/
+/*-----Info-----------------*/
+.info{
+  margin-bottom: 150px;
+}
+.info__inner {
+  display: flex;
+}
+.info__img {
+  margin-right: 60px;
+  flex-basis: 570px;
+}
+.info__list {
+  flex-basis: 490px;
+}
+.info__item + .info__item{
+  padding-top: 50px;
+}
+.info__item-title {
+}
+.info__item-text {
+}
+/*-----Footer--------------*/
 .name {
  
   text-align: center;
