@@ -109,18 +109,25 @@ ul{
   margin-top: 25px;
 }
 .bike__list-item {
-  font-weight: 700;
-  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
   min-width: 160px;
   text-align: center;
+  align-items: center;
+  min-height: 58px;
 }
-.bike__list-item span{
-  display: block;
+.bike__list-num{
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.bike__list-text{
+  /*display: block;*/
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
-  text-transform: lowercase;
-  margin-bottom: 5px;
+  /*text-transform: lowercase;*/
+  /*margin-bottom: 5px;*/
+  margin: auto 0;
 
 }
 /*-- свойства  управления слайдера  ----*/
