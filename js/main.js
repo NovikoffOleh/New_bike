@@ -2,9 +2,15 @@ $(function(){
   $('.bike-slider').slick({
     arrows:false,
     dots: true,
-    fade:true
+    fade:true,
+    autoplay:true,
+    autoplaySpeed:2000,
   });
 })
 //! отключение стрелок у слайдера
 //arrows:false,
 //dots: true
+//! управление воспроизведением у слайдера
+    //fade:true,
+    //autoplay:true,
+    //autoplaySpeed:2000,

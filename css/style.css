@@ -103,11 +103,25 @@ ul{
   letter-spacing: 1.1em;
 }
 
-.bike-slider__item {
-}
 .bike__list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
 }
 .bike__list-item {
+  font-weight: 700;
+  text-transform: uppercase;
+  min-width: 160px;
+  text-align: center;
+}
+.bike__list-item span{
+  display: block;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: lowercase;
+  margin-bottom: 5px;
+
 }
 /*-- свойства  управления слайдера  ----*/
 /*---их можно увидеть визвав Просмотр кода на кнопках слайдера---*/
@@ -136,4 +150,16 @@ ul{
 .slick-active button:hover,
 .slick-active button{
   background-color: #ff4040;
+}
+/*--------------------------*/
+
+
+/*-----Footer--------*/
+.name {
+ 
+  text-align: center;
+  font-size: 12px;
+}
+.footer-copyright{
+  margin-bottom: 25px;
 }
