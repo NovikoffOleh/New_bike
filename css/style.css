@@ -16,6 +16,9 @@ ul{
   padding: 0;
   list-style: none;
 }
+p{
+  margin: 0;
+}
 .body{
   font-family: 'Inter', sans-serif;
   font-weight: 400;
@@ -218,10 +221,14 @@ ul{
 }
 
 .characteristics__line {
+  display: flex;
+  padding-top: 5px;
 }
 .characteristics__name {
+  flex-basis: 285px;
 }
 .characteristics__descr {
+  flex-basis: 285px;
 }
 /*-----Footer--------------*/
 .name {
