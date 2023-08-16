@@ -226,6 +226,7 @@ p{
 }
 .characteristics__name {
   flex-basis: 285px;
+  padding-right: 25px;
 }
 .characteristics__descr {
   flex-basis: 285px;
