@@ -498,6 +498,10 @@ margin-bottom: 50px;
   .menu__link{
     padding: 25px 0;
   }
+  .bike__link{
+    padding: 15px;
+    letter-spacing: .9em;
+  }
 }
 @media(max-width:350px){
   .menu{
@@ -506,5 +510,5 @@ margin-bottom: 50px;
   .menu__link{
     font-size: 12px;
   }
-  
+
 }
