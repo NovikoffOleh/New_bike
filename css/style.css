@@ -375,18 +375,33 @@ margin-bottom: 50px;
 
 }
 .footer__link {
+  color: #ffff;
+  text-decoration: underline;
+  font-size: 12px;
+  line-height: 15px;
 }
 .footer__social {
 }
-.footer__social-link {
+.footer__social-link + .footer__social-link {
+  margin-left: 25px;
 }
-.footer__social-img {
-}
+
 .footer__contacts {
+  color: #ffff;
+  font-size: 12px;
+  line-height: 15px;
 }
 .footer__contacts-link {
+  display: flex;
+  align-items: center;
+}
+.footer__contacts-link + .footer__contacts-link{
+  
 }
 .footer__contacts-img {
+  padding-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 .name {
  
