@@ -425,6 +425,28 @@ margin-bottom: 50px;
   padding-bottom: 15px;
 }
 /*-------Adaptive---------------*/
+@media(max-width:1110px){
+  .bike__inner{
+    flex-wrap: wrap;
+  }
+  .bike__text{
+    max-width: 100%;
+  }
+  .bike{
+    padding: 0;
+  }
+  .bike__link{
+    margin-top: 30px;
+  }
+  .bike__column{
+    margin-bottom: 30px;
+  }
+  .bike__column-slider{
+    max-width: 100%;
+    margin-left: 0;
+  }
+}
+
 @media(max-width:991px){
   .menu{
     margin-right: 0;
@@ -456,7 +478,7 @@ margin-bottom: 50px;
     padding: 25px 0;
   }
 }
-@media(max-width:340px){
+@media(max-width:350px){
   .menu{
     margin-top: 30px;
   }
