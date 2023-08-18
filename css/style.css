@@ -432,6 +432,18 @@ margin-bottom: 50px;
   .form__bike{
     top: 45px;
   }
+  .menu__link,
+  .bike__link{
+    transition: all 0s;
+  }
+  .menu__link:hover{
+   background-color: transparent;
+   color: #131313;
+  }
+  .bike__link:hover{
+    background-color: #131313;
+   color: #fff;
+  }
 }
 
 @media(max-width:1110px){
