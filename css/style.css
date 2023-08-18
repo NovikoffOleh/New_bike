@@ -93,7 +93,8 @@ p{
   color: #6f6f6f;
 }
 .bike__text {
-  min-width: 420px;
+  min-width: 340px;
+  /*min-width: 340px;*/
   margin-bottom: 20px;
 }
 .bike__link {
