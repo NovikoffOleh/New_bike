@@ -364,6 +364,30 @@ margin-bottom: 50px;
   cursor: pointer;
 }
 /*-----Footer--------------*/
+.footer {
+  background-color: #131313;
+}
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+
+}
+.footer__link {
+}
+.footer__social {
+}
+.footer__social-link {
+}
+.footer__social-img {
+}
+.footer__contacts {
+}
+.footer__contacts-link {
+}
+.footer__contacts-img {
+}
 .name {
  
   text-align: center;
@@ -371,4 +395,6 @@ margin-bottom: 50px;
 }
 .footer-copyright{
   margin-bottom: 25px;
+  color: #ffff;
+  padding-bottom: 15px;
 }
