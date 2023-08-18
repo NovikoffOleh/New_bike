@@ -620,6 +620,23 @@ margin-bottom: 50px;
   .form__bike{
     bottom: 50px;
   }
+  .form__bike-img{
+    width: 275px;
+  }
+  .form__label-box{
+    margin-bottom: 200px;
+    justify-content: center;
+  }
+  .price__inner{
+    text-align: center;
+  }
+  .form__text{
+    max-width: 100%;
+  }
+  .form__bike{
+    right: 0;
+  }
+  
 }
 @media(max-width:350px){
   .menu{
